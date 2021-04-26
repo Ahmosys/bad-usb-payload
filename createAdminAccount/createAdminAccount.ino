@@ -1,6 +1,3 @@
-// You can set yourself the delay you want by testing, the delay here is always the same.
-// PLEASE plug in second USB in before Bad USB.
-
 #include <KeyboardAzertyFr.h>
 
 // Init function
