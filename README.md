@@ -10,6 +10,7 @@
 
 ## 📃 Payloads
 
+- chromeTabStartup - This payload allows you to change the tab at startup of chrome, and even open multiple tabs at startup.
 - createAdminAccount - This payload allows you to create a local administrator account on the PC.
 - fakeRansomwareAndLock - This payload locks the PC and displays a fake ransomware.
 - localDNSPoisoning - This payload will modify the host file by adding occurrences which will allow to block certain site or to redirect them.
