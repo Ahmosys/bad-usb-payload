@@ -22,13 +22,21 @@ void setup()
   
   delay(1000);
 
+  // Press CTRL + Windows + Up arrow (Ensures that chrome is open in full screen mode)
+  KeyboardAzertyFr.press(KEY_LEFT_CTRL);
+  KeyboardAzertyFr.press(KEY_LEFT_GUI);
+  KeyboardAzertyFr.press(KEY_UP_ARROW );
+  KeyboardAzertyFr.releaseAll();
+
+  delay(400);
+
   // Print (go to chrome settings)
   KeyboardAzertyFr.print("chrome://settings/");
   typeKey(KEY_RETURN);
   
   delay(400);
 
-  // Print (search for the section related to chrome startup)
+  // Print (search for the section related to chrome startup)(If you are EN change the word to "startup" instead of "demarrage")
   KeyboardAzertyFr.print("demarrage");
   typeKey(KEY_RETURN);
   
